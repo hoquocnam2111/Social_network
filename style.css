@@ -17,7 +17,7 @@ nav {
     background-color: var(--nav-color);
     padding:5px 100px ;
 }
-.nav__left {
+.nav__left  {
 
 }
 .nav__right li {
@@ -78,5 +78,41 @@ nav {
     padding : 5px 0 ; 
     
 }
+.container{
+    background-color: var(--body-color);
+    height: 93vh;
+}
+.content{
+    display:flex;
+    justify-content: space-between;
+     margin: 0 100px;
+}
+.menu__left{
+    display: flex;
+    flex-direction: column;
  
- 
+}
+.down__left{
+    margin-top: 50px;
+}
+.status__box{
+    display: none;
+}
+.up__right{
+    display: flex;
+    flex-direction: column;
+    
+}
+.down__right{
+    margin-top: 300px;
+}
+.box__up-left i {
+    padding: 20px;
+}
+a{
+    color:#1876f2;
+    text-decoration: none;
+}
+.box__down-left h3{
+    padding: 20px;
+}
